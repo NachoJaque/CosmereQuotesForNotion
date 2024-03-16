@@ -1,4 +1,4 @@
-var quotes = [
+const quotes = [
     'Life Before Death. Strength Before Weakness. Journey Before Destination. - The Way of Kings',
     'Life breaks us, then we fill the cracks with something stronger. - OathBringer',
     'Every man is a hero of his own story. - OathBringer',

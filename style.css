@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Luminari';
+    src: url('Luminari-Regular.ttf');
+}
+
+div {
+    font-family: 'Luminari', serif;
+}
+
+p {
+    font-family: 'Luminari', serif;
+}
