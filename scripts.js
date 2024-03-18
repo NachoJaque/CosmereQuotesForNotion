@@ -1,4 +1,4 @@
-const quotes = [
+const quotes1 = [
     'Life Before Death. Strength Before Weakness. Journey Before Destination. - The Way of Kings',
     'Life breaks us, then we fill the cracks with something stronger. - OathBringer',
     'Every man is a hero of his own story. - OathBringer',
@@ -17,9 +17,34 @@ const quotes = [
     'You don’t have to believe in my miracles. You can call them accidents or coincidences if you must. But don’t pity me for my faith. And don’t presume that you’re better, just because you believe something different. - Jewels, Warbreaker',
     'Good men can make terrible kings. But bad men cannot make good kings. - Tindwyl, The Well of Ascension'
 ];
-let arrayLength = quotes.length;
+
+const quotes = [
+    'Escribo estas palabras en acero, pues todo lo que no este escrito en metal es indigno de confianza. | Kwaan, El pozo de la Ascencion',
+    '-No lo comprendéis -gimió-. No sabeis lo que hago por la humanidad. Era vuestro dios, aunque no pudierais comprenderlo. Al matarme, os habéis condenado...|Rashek|El Imperio Final',
+    '-La fe no es solo para los bellos momentos y los días felices. ¿Qué es la fe, qué es creer, si no continúas en ella después del fracaso? Vin fruncio el ceño. -Cualquiera puede creer en alguien, o en algo, que siempre tiene  éxito, señora. Pero en el fracaso... Ah, en eso sé que es difícil creer, con certeza y confianza. Es muy  difícil tener valor.|Sazed|El Imperio Final',
+]
+
+
+
+const imagenes = [
+    
+];
+
+let quotesLength = quotes.length;
+let imagenesLength = imagenes.length;
+
+
+
 
 function newQuote() {
-    var randomNumber = Math.floor(Math.random()*arrayLength);
-    document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
+    var randomNumber1 = Math.floor(Math.random()*quotesLength);
+    var randomNumber2 = Math.floor(Math.random()*imagenesLength);
+    //var imagenAleatoria = imagenes[randomNumber2]
+    const currentQuote = quotes1[randomNumber1];
+
+    const [quote, author, book] = currentQuote.split('|');
+    document.getElementById('quoteDisplay').innerHTML = quote;
+    document.getElementById('authorDisplay').innerHTML = author;
+    document.getElementById('bookDisplay').innerHTML = book;
+    //document.body.style.backgroundImage = "url('${imagenAleatoria}')";
 }
