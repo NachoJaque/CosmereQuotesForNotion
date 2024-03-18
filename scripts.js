@@ -40,7 +40,7 @@ function newQuote() {
     var randomNumber1 = Math.floor(Math.random()*quotesLength);
     var randomNumber2 = Math.floor(Math.random()*imagenesLength);
     //var imagenAleatoria = imagenes[randomNumber2]
-    const currentQuote = quotes1[randomNumber1];
+    const currentQuote = quotes[randomNumber1];
 
     const [quote, author, book] = currentQuote.split('|');
     document.getElementById('quoteDisplay').innerHTML = quote;
