@@ -19,9 +19,16 @@ const quotes1 = [
 ];
 
 const quotes = [
-    'Escribo estas palabras en acero, pues todo lo que no este escrito en metal es indigno de confianza. | Kwaan, El pozo de la Ascencion',
+    'Escribo estas palabras en acero, pues todo lo que no este escrito en metal es indigno de confianza.|Kwaan|El pozo de la Ascencion',
     '-No lo comprendéis -gimió-. No sabeis lo que hago por la humanidad. Era vuestro dios, aunque no pudierais comprenderlo. Al matarme, os habéis condenado...|Rashek|El Imperio Final',
     '-La fe no es solo para los bellos momentos y los días felices. ¿Qué es la fe, qué es creer, si no continúas en ella después del fracaso? Vin fruncio el ceño. -Cualquiera puede creer en alguien, o en algo, que siempre tiene  éxito, señora. Pero en el fracaso... Ah, en eso sé que es difícil creer, con certeza y confianza. Es muy  difícil tener valor.|Sazed|El Imperio Final',
+    'Prometedles autonomía y trabajarán duro por conseguirla. Os sorprenderá lo mucho más que rinde un hombre libre que un esclavo que no piensa más que en su próxima comida.|Sarene|Elantris',
+    'Me preocupa la vida. No solo la supervivencia, Galladon, la vida. Esta gente está muerta porque se ha rendido, no porque sus corazones ya no latan.|Raoden|Elantris',
+    'La verdad no podrá ser derrotada nunca, Sarene. Aunque la gente la olvide temporalmente.|Eventeo|Elantris',
+    'Descubrirás que el odio puede unir a la gente más rápido y más fervientemente que la devoción.|Hrathen|Elantris',
+    'Amigo, en todos los desastres se puede encontrar algo de belleza; solo hay que saber dónde buscarla.|Hoid|Elantris',
+    'No corras si sólo tienes fuerzas para andar, y no pierdas el tiempo empujando puertas que no cederán. Y lo que es más importante, no atroppelles cuando una palmadita sea suficiente.|Roial|Elantris',
+    'Es propio de la naturaleza humana creer que otros lugares y otras épocas han sido mejores que el aquí y el ahora.|Hrathen|Elantris',
 ]
 
 
